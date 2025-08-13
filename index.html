@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssif Ahmed - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="dark-mode">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Youssif Ahmed Abdallah</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#training" class="nav-link">Training</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <!-- Resume link that stands out -->
+                <li class="nav-item">
+                    <a href="https://drive.google.com/file/d/1CjbkG1vnLYWe_H224StwyVDJJULu8img/view?usp=drive_link"
+                        class="nav-link resume-link" target="_blank">Resume</a>
+                </li>
+            </ul>
+            <div class="theme-switch">
+                <input type="checkbox" id="theme-toggle">
+                <label for="theme-toggle" class="switch">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </label>
+            </div>
+            <div class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hello, I'm <span class="highlight">Youssif Ahmed Abdallah</span>
+                </h1>
+                <p class="hero-subtitle">Python Developer | AI and Data Science Trainee</p>
+                <p class="hero-description">
+                    Computer Science and Mathematics graduate with solid foundation in Python and Object-Oriented
+                    Programming (OOP) principles,
+                    applied in problem solving and building efficient solutions. Currently advancing knowledge in AI and
+                    data science through the Digital Egypt Pioneers Initiative (DEPI).
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about" aria-label="Scroll to about section">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Computer Science and Mathematics graduate with solid foundation in Python and Object-Oriented
+                        Programming (OOP) principles,
+                        applied in problem solving and building efficient solutions. Experienced in MySQL and database
+                        design including data modeling
+                        and normalization, with additional knowledge in C/C++, and full-stack web development using PHP
+                        Laravel.
+                    </p>
+                    <p>
+                        Currently advancing knowledge in AI and data science through the Digital Egypt Pioneers
+                        Initiative (DEPI).
+                        Seeking opportunities to apply Python and OOP expertise alongside broad software development and
+                        database skills
+                        to create scalable, efficient solutions.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="imgs/My_Photo.jpg" alt="Youssif Ahmed Abdallah" class="about-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>Bachelor's Degree in Computer Science and Mathematics</h3>
+                        <p class="institution">Faculty of Science, Helwan University</p>
+                        <p class="grade">Grade: 73.24% – Good (Equivalent to GPA: 2.93/4.0)</p>
+                        <p class="duration">2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Section -->
+    <section id="training" class="training">
+        <div class="container">
+            <h2 class="section-title">Training</h2>
+            <div class="training-content">
+                <div class="training-item">
+                    <div class="training-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="training-details">
+                        <h3>DEPI | AI and Data Science</h3>
+                        <p class="institution">Digital Egypt Pioneers Initiative</p>
+                        <p class="duration">06/2025 – Ongoing</p>
+                        <ul class="training-points">
+                            <li>Building skills in Python, machine learning, and algorithm development for data analysis
+                            </li>
+                            <li>Practicing with tools like Pandas, NumPy, Matplotlib, and Scikit-learn</li>
+                            <li>Gaining practical skills in model evaluation, feature engineering, supervised learning,
+                                and optimization techniques</li>
+                            <li>Developing analytical thinking and problem-solving in software-based scenarios</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="training-item">
+                    <div class="training-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="training-details">
+                        <h3>ITI (summer training) | Full-Stack Web Development</h3>
+                        <p class="institution">Information Technology Institute</p>
+                        <p class="duration">07/2024 – 08/2024</p>
+                        <ul class="training-points">
+                            <li>Practiced backend logic implementation using Laravel and PHP</li>
+                            <li>Applied database design principles to build dynamic systems with MySQL</li>
+                            <li>Practiced database integration, routing, MVC structure, and clean code practices</li>
+                            <li>Collaborated with a team to simulate real-world project environments</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python (OOP, Clean Code)</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-c"></i>
+                            <span>C/C++ (Basics)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Databases</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Database Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-sitemap"></i>
+                            <span>Data Modeling</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-compress-alt"></i>
+                            <span>Normalization</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> Software Engineering Concepts</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>Object-Oriented Programming (OOP)</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>Full Software Development Lifecycle (SDLC)</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-sitemap"></i>
+                            <span>Algorithms & Data Structures</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-vial"></i>
+                            <span>Testing</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-users"></i>
+                            <span>Agile Methodology</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-water"></i>
+                            <span>Waterfall Model</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-laravel"></i>
+                            <span>Laravel (PHP)</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Beautiful Soup (Python)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-code-branch"></i> Version Control (Basics)</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-user-friends"></i> Soft Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Quick and Autonomous Learning</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-search"></i>
+                            <span>Attention to Details</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-users"></i>
+                            <span>Teamwork and Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-language"></i> Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-flag"></i>
+                            <span>Arabic: Native</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-globe-americas"></i>
+                            <span>English: B2 (Upper intermediate)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="imgs/employee_management_system.jpg" alt="Employee Management System"
+                            class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Employee Management System (Python)</h3>
+                        <ul class="project-description">
+                            <li>Built a command-line application to manage employee records using Python and
+                                Object-Oriented Programming (OOP) with CSV file storage and retrieval.</li>
+                            <li>Implemented CRUD operations with in-memory dictionary storage and CSV file handling for
+                                persistent data storage.</li>
+                            <li>Applied problem-solving techniques and modular code design to ensure maintainability and
+                                scalability.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OOP</span>
+                            <span>CSV</span>
+                            <span>CRUD</span>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/YoussifAhmed66/DEPI-Final-Python-Project"
+                                class="btn btn-small btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="imgs/web_scraping.jpg" alt="Web Scraping Project" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Simple Web Scraping Task (Python)</h3>
+                        <ul class="project-description">
+                            <li>Extracted data from a test website using Beautiful Soup library and saved it into CSV
+                                and JSON files.</li>
+                            <li>Demonstrated skills in HTML parsing, data extraction, and file operations.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Beautiful Soup</span>
+                            <span>HTML Parsing</span>
+                            <span>CSV</span>
+                            <span>JSON</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/YoussifAhmed66/DEPI-web-Scraping-Task"
+                                class="btn btn-small btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out!</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>yoossifahmed66@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+201143095568</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Giza, Egypt</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/youssif-ahmed-66-dev/" class="social-link" target="_blank"
+                            aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/YoussifAhmed66" class="social-link" target="_blank"
+                            aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:yoossifahmed66@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Updated Form with Formspree -->
+                <form class="contact-form" action="https://formspree.io/f/manbkwjp" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="_subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Youssif Ahmed Abdallah.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#education">Education</a>
+                    <a href="#training">Training</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
