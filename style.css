@@ -1356,3 +1356,117 @@ section {
     margin-right: auto;
   }
 }
+
+/* Training Logo Styles */
+.training-icon {
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.light-mode .training-icon {
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.training-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.training-item:hover .training-icon {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.training-item:hover .training-logo {
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments for training logos */
+@media (max-width: 768px) {
+  .training-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .logo-container {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Education Logo Styles */
+.education-icon {
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.light-mode .education-icon {
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.education-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.education-item:hover .education-icon {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.education-item:hover .education-logo {
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments for education logo */
+@media (max-width: 768px) {
+  .education-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .logo-container {
+    width: 50px;
+    height: 50px;
+  }
+}
