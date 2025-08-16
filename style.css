@@ -77,6 +77,26 @@ body.light-mode {
   background-clip: text;
 }
 
+.nav-brand-full {
+  display: block;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+
+.nav-brand-mobile {
+  display: none;
+  font-size: 1.5rem;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  /* Adjust size as needed */
+}
+
 .nav-menu {
   display: flex;
   list-style: none;
@@ -256,6 +276,7 @@ input[type="checkbox"]:checked+.switch::after {
 .hero-buttons {
   display: flex;
   gap: 1rem;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -431,6 +452,7 @@ section {
   color: #cccccc;
   line-height: 1.8;
   transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: justify;
 }
 
 .light-mode .about-text p {
@@ -708,7 +730,7 @@ section {
 }
 
 /* Responsive design for education and training sections */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 
   .education-item,
   .training-item {
@@ -1182,7 +1204,7 @@ section {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .hamburger {
     display: flex;
   }
@@ -1343,7 +1365,7 @@ section {
 }
 
 /* Mobile menu adjustments */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .nav-menu {
     gap: 1rem;
   }
@@ -1402,7 +1424,7 @@ section {
 }
 
 /* Responsive adjustments for training logos */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .training-icon {
     width: 70px;
     height: 70px;
@@ -1411,6 +1433,14 @@ section {
   .logo-container {
     width: 50px;
     height: 50px;
+  }
+
+  .nav-brand-full {
+    display: none;
+  }
+
+  .nav-brand-mobile {
+    display: block;
   }
 }
 
@@ -1459,7 +1489,7 @@ section {
 }
 
 /* Responsive adjustments for education logo */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .education-icon {
     width: 70px;
     height: 70px;
@@ -1468,5 +1498,48 @@ section {
   .logo-container {
     width: 50px;
     height: 50px;
+  }
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1000px) {
+  .nav-menu {
+    gap: 1rem;
+  }
+
+  .resume-link {
+    margin: 10px auto;
+    /* Changed margin-left to auto for centering in column layout */
+    text-align: center;
+    width: 80%;
+    max-width: 200px;
+    /* Add a max-width to prevent it from becoming too wide */
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    /* Stack items vertically */
+    grid-template-areas:
+      "image"
+      "text";
+  }
+
+  .about-image {
+    grid-area: image;
+    margin: 0 auto;
+    /* Center the image */
+    max-width: 300px;
+    /* Optional: control mobile image size */
+  }
+
+  .about-text {
+    grid-area: text;
+    margin-top: 2rem;
+    /* Space between image and text */
   }
 }
