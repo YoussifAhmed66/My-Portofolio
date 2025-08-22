@@ -730,7 +730,7 @@ section {
 }
 
 /* Responsive design for education and training sections */
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
 
   .education-item,
   .training-item {
@@ -1204,7 +1204,7 @@ section {
 }
 
 /* Responsive Design */
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .hamburger {
     display: flex;
   }
@@ -1365,7 +1365,7 @@ section {
 }
 
 /* Mobile menu adjustments */
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .nav-menu {
     gap: 1rem;
   }
@@ -1424,7 +1424,7 @@ section {
 }
 
 /* Responsive adjustments for training logos */
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .training-icon {
     width: 70px;
     height: 70px;
@@ -1489,7 +1489,7 @@ section {
 }
 
 /* Responsive adjustments for education logo */
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .education-icon {
     width: 70px;
     height: 70px;
@@ -1507,7 +1507,7 @@ body {
   overflow-x: hidden;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .nav-menu {
     gap: 1rem;
   }
