@@ -1287,6 +1287,10 @@ section {
     max-width: 200px;
     text-align: center;
   }
+
+  .about-text p {
+    text-align: left;
+  }
 }
 
 /* Custom scrollbar */
