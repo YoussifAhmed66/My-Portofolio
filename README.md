@@ -24,14 +24,6 @@ This repository contains the source code for my personal portfolio. It serves as
 
 ---
 
-## 📁 Repository Structure
-
-- `index.html`: The main page of the portfolio.
-- `projects.html`: A dedicated page for more project details.
-- `style.css`: The styling and design system.
-- `script.js`: Interactivity and logic.
-- `imgs/`: Images used throughout the site.
-
 ## 📬 Contact
 
 - **Email:** [yoossifahmed66@gmail.com](mailto:yoossifahmed66@gmail.com)
