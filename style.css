@@ -853,6 +853,24 @@ section {
   font-weight: 600;
 }
 
+/* Skill item images (for Simple Icons) */
+.skill-item img {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.skill-item:hover img {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+
+/* Project link icons */
+.project-links a i {
+  margin-right: 0.5rem;
+}
+
+
 /* Projects Section */
 .projects {
   background: #0f0f23;

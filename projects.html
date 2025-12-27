@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects - Youssif Ahmed</title>
+    <link rel="icon" type="image/png" href="imgs/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="dark-mode">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html#home">
+                    <span class="nav-brand-mobile">Youssif Ahmed</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#training" class="nav-link">Training</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://drive.google.com/file/d/1GiTVcVbtIbsxuFipBIkzjhRcO6SFp8q4/view?usp=sharing"
+                        class="nav-link resume-link" target="_blank">Resume</a>
+                </li>
+            </ul>
+            <div class="theme-switch">
+                <input type="checkbox" id="theme-toggle">
+                <label for="theme-toggle" class="switch">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </label>
+            </div>
+            <div class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main style="padding-top: 100px;">
+        <section id="all-projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">All My Projects</h2>
+                <div class="projects-grid"
+                    style="grid-template-columns: repeat(2, 1fr); max-width: 1400px; margin: 0 auto;">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Qanouny - AI Legal Assistant</h3>
+                            <ul class="project-description">
+                                <li>Designed and implemented a production-ready RAG architecture tailored for Arabic
+                                    legal
+                                    language and high-risk decision environments, leveraging Groq API for the LLM. </li>
+                                <li>Developed an end-to-end multi-modal AI pipeline integrating OCR and speech-to-text
+                                    to
+                                    process text, audio, and images, and engineered a vector-based retrieval system
+                                    using
+                                    ChromaDB and multilingual embeddings. </li>
+                                <li>Integrated risk-aware intelligence layers and legal term simplification into the
+                                    responses,
+                                    ensuring source-grounded, auditable, and transparent outputs suitable for critical
+                                    legal
+                                    contexts.</li>
+                                <li>Collaborated closely with Data Engineering and Flutter teams to ensure seamless
+                                    integration
+                                    and deployment in a real-world production environment. </li>
+                            </ul>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>RAG</span>
+                                <span>Embeddings</span>
+                                <span>ChromaDB</span>
+                                <span>OCR</span>
+                                <span>Speech-to-Text</span>
+                                <span>LLMs</span>
+                                <span>Groq API</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Telco Customer Churn Analysis and Prediction</h3>
+                            <ul class="project-description">
+                                <li>Developed an end-to-end machine learning pipeline to predict customer churn,
+                                    enabling
+                                    proactive retention strategies for a telecommunications company. </li>
+                                <li>Performed comprehensive Exploratory Data Analysis (EDA) using Seaborn and Matplotlib
+                                    to
+                                    uncover hidden patterns and identify key churn drivers, such as contract types and
+                                    billing methods. </li>
+                                <li>Evaluated and compared the performance of XGBoost, LightGBM, and Logistic Regression
+                                    to identify the most reliable model for distinguishing between churners and loyal
+                                    customers. </li>
+                                <li>Optimized the winning models through a strategic two-stage hyperparameter tuning
+                                    process (RandomizedSearchCV followed by GridSearchCV), achieving a high Recall of
+                                    81.3%
+                                    and an AUC-ROC of 84.4%.</li>
+                            </ul>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Classification</span>
+                                <span>EDA</span>
+                                <span>RandomizedSearchCV</span>
+                                <span>Hyperparameter Tuning</span>
+                                <span>GridSearchCV</span>
+                                <span>Logistic Regression</span>
+                                <span>Random Forest</span>
+                                <span>XGBoost</span>
+                                <span>LightGBM</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/YoussifAhmed66/Customer-Churn-Analysis-and-Prediction"
+                                    class="btn btn-small btn-outline" target="_blank"><i class="fab fa-github"></i>
+                                    GitHub</a>
+                                <a href="https://www.kaggle.com/code/youssifahmed66/customer-churn-analysis-and-prediction"
+                                    class="btn btn-small btn-outline" target="_blank"><i class="fab fa-kaggle"></i>
+                                    Kaggle</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Smart Study Companion – RAG-Based Interactive Document </h3>
+                            <ul class="project-description">
+                                <li>Built a Retrieval-Augmented Generation (RAG) system using FastAPI to transform
+                                    static PDF documents into interactive, conversational knowledge bases for students
+                                    and researchers. </li>
+                                <li>Implemented hybrid search combining semantic search (ChromaDB with multilingual
+                                    embeddings) and keyword-based retrieval (BM25) to achieve high accuracy in finding
+                                    both conceptual context and exact technical terms. </li>
+                                <li>Designed an intelligent query pipeline with automatic query rewriting to resolve
+                                    conversational pronouns and context, ensuring accurate retrieval even for follow-up
+                                    questions. </li>
+                                <li>Applied recursive text splitting strategy to optimize context preservation while
+                                    maintaining fast processing speeds.</li>
+                                <li>Engineered performance optimizations through FastAPI lifespan events for model
+                                    preloading (Alibaba-NLP/gte-multilingual-base embeddings) and strict prompt
+                                    hardening to ensure responses remain grounded exclusively in document content. </li>
+                            </ul>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>RAG</span>
+                                <span>Langchain</span>
+                                <span>FastAPI</span>
+                                <span>OpenRouter</span>
+                                <span>BM25</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/YoussifAhmed66/Smart-Study-Companion"
+                                    class="btn btn-small btn-outline" target="_blank"><i class="fab fa-github"></i>
+                                    GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Loan Approval Prediction</h3>
+                            <ul class="project-description">
+                                <li>Developed a machine learning workflow to automate loan approval decisions based on
+                                    customer demographics and financial history. </li>
+                                <li>Performed Exploratory Data Analysis (EDA) using Seaborn and Matplotlib to identify
+                                    key
+                                    correlations between applicant income and loan status. </li>
+                                <li>Conducted a comparative analysis between Logistic Regression and Decision Tree
+                                    classifiers
+                                    to determine the optimal model for risk assessment. </li>
+                                <li>Optimized model performance using GridSearchCV for hyperparameter tuning, achieving
+                                    a
+                                    final Accuracy of 86% and an F1-Score of 91%. </li>
+                            </ul>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Classification</span>
+                                <span>EDA</span>
+                                <span>GridSearchCV</span>
+                                <span>Logistic Regression</span>
+                                <span>Decision Tree</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/YoussifAhmed66/Loan-Approval-Prediction"
+                                    class="btn btn-small btn-outline" target="_blank"><i class="fab fa-github"></i>
+                                    GitHub</a>
+                                <a href="https://www.kaggle.com/code/youssifahmed66/predictive-classification-for-loan-approval-status"
+                                    class="btn btn-small btn-outline" target="_blank"><i class="fab fa-kaggle"></i>
+                                    Kaggle</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Youssif Ahmed Abdallah.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html#home">Home</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#education">Education</a>
+                    <a href="index.html#training">Training</a>
+                    <a href="index.html#projects">Projects</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
