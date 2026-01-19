@@ -729,6 +729,12 @@ section {
   font-weight: bold;
 }
 
+.training-links {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
 /* Responsive design for education and training sections */
 @media (max-width: 768px) {
 
